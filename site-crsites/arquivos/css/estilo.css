@@ -1,0 +1,114 @@
+    /* Estilos globais */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+      }
+  
+      /* Estilos do header */
+      .header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .header-left, .header-right {
+        display: inline-block;
+      }
+
+      .header-left{
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 36px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+      
+      .code {
+        color: #444;
+      }
+      
+      .text {
+        color: #333;
+        margin: 0 10px;
+      }
+  
+      /* Estilos do main */
+      .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+  
+      .main > div {
+        width: 100%;
+        max-width: 800px;
+        margin-bottom: 20px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+  
+      /* Estilos dos cards de serviços */
+      .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+  
+      .card {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+  
+      .card h3 {
+        margin-bottom: 10px;
+      }
+  
+      .card p {
+        margin-bottom: 10px;
+      }
+      /* Estilos do footer */
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  
+      .footer a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      @media screen and (max-width: 768px) {
+        .logo {
+          font-size: 12px;
+
+        }
+      }
+  

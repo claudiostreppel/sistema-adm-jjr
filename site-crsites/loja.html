@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Template de E-commerce</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		nav a {
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+			margin-left: 20px;
+		}
+
+		main {
+			max-width: 1200px;
+			margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap: 20px;
+			padding: 20px;
+		}
+
+		.product {
+			background-color: #f1f1f1;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.product h2 {
+			margin-top: 0;
+		}
+
+		.product img {
+			max-width: 100%;
+		}
+
+		.product p {
+			margin: 10px 0;
+		}
+
+		@media screen and (max-width: 1000px) {
+			main {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+
+		@media screen and (max-width: 600px) {
+			main {
+				grid-template-columns: 1fr;
+			}
+
+			nav {
+				flex-direction: column;
+			}
+
+			nav a {
+				margin-left: 0;
+				margin-bottom: 10px;
+			}
+		}
+
+        @media screen and (max-width: 600px) {
+            .product button {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            margin-top: 10px;
+            width: 80%;
+            }
+        }
+
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Logo</h1>
+			<a href="#">Carrinho</a>
+			<a href="#">Conta</a>
+		</nav>
+	</header>
+	<main>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<img src="https://via.placeholder.com/350x350" alt="Product Image">
+			<h2>Seu Produto</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et consequat sapien. Proin mollis enim at commodo pretium. Donec tristique, magna a congue sodales, nibh nulla iaculis leo, sit amet blandit ante nisi quis libero.</p>
+			<p>Preço: $50.00</p>
+			<button>Add to Cart</button>
+		</div>
+    </main>
+</body>
+</html>
